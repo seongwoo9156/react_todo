@@ -1,0 +1,34 @@
+.todo_container {
+  border: 1px solid #333;
+  width: 300px;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+.todo_title {
+  margin-bottom: 13px;
+}
+.todo_desc {
+  margin-bottom: 10px;
+}
+.button_set {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.delete_button {
+  border: none;
+  color: #fff;
+  background: rgb(233, 72, 72);
+  width: 130px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.complete_button {
+  border: none;
+  color: #fff;
+  background: rgb(35, 35, 238);
+  width: 130px;
+  border-radius: 10px;
+  padding: 10px;
+}
