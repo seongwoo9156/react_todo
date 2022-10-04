@@ -1,6 +1,7 @@
 import React from "react";
 import Todo from "../todo/Todo";
 import "./style.css";
+
 //딜리트함수버튼 todos를 setTodos로 변환todos배열에서 todo.id 가 파라미터로 일치하지 않는 원소만 추출해서
 //새로운 배열을 만듬=todo.id 가 id 인 것을 제거
 function List({ todos, setTodos }) {
@@ -9,7 +10,6 @@ function List({ todos, setTodos }) {
     const newTodos = todos.filter((todo) => {
       return todo.id !== todoId;
     });
-
     setTodos(newTodos);
   };
   //완료, 취소 버튼 함수
@@ -24,8 +24,8 @@ function List({ todos, setTodos }) {
         return { ...todo };
       }
     });
-
     setTodos(newTodos);
+    console.log(todos);
   };
 
   return (

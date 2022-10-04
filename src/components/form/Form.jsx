@@ -22,10 +22,13 @@ const Form = ({ setTodos, todos }) => {
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
+    console.log(todo);
     if (todo.title.trim() === "" || todo.desc.trim() === "") return;
     setTodos([...todos, { ...todo, id: number }]);
     setTodo(form);
+    console.log(todo);
     number++;
+    console.log(todo);
   };
 
   return (
