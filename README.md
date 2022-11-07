@@ -2,14 +2,3 @@
 
 https://react-todo-lemon-chi.vercel.app/
 
-📦src  
- ┣ 📂components  
- ┃ ┣ 📜ImageList.js  
- ┃ ┣ 📜ProgressBar.css  
- ┃ ┣ 📜ProgressBar.js  
- ┃ ┣ 📜UploadForm.css  
- ┃ ┗ 📜UploadForm.js  
- ┣ 📂context  
- ┃ ┗ 📜ImageContext.js  
- ┣ 📜App.js  
- ┗ 📜index.js  
